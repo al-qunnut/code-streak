@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.png';
 import { Socials } from './Local.jsx';
 import { FiMenu } from "react-icons/fi";
 
