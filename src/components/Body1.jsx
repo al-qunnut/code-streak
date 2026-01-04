@@ -70,7 +70,7 @@ const Body1 = () => {
             News.map((News) =>
              <div key={News.id} className='grid grid-cols-3 gap-2 my-4 border-b-2 pb-4'>
             <div className='col-span-1'>
-            <img className='w-[60] h-[120]' src={News.image} alt='image'/>
+            <img className='w-[60] h-[60]' src={News.image} alt='image'/>
             </div>
             <div className='col-span-2'>
             <h3 className='font-semibold md:text-xl py-2'>{News.name}</h3>

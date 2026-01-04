@@ -42,3 +42,16 @@ export const Socials = [
       image: img4,
     },
   ]
+
+export const navs = [
+    {id: 1, name:'Home', url: '#', isOpen: false},
+    {id: 2, name:'Live Blog', url: '#', isOpen: false},
+    {id: 3, name:'Breaking News', url: '#', isOpen: false},
+    {id: 4, name:'Top Headlines', url: '#', isOpen: false},
+    {id: 5, name: 'Cities', url: ['Guwahati', 'Dibrugarh', 'Jorhat', 'Tezpur', 'Silchar'], isOpen: false},
+    {id: 6, name: 'NE News', url: ['Assam', 'Arunachal Pradesh', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Sikkim', 'Tripura'], isOpen: false},
+    {id: 7, name: 'Social Media', url: ['Sentinel Tv', 'Web Stories'], isOpen: false},
+    {id: 8, name: 'Sports', url: ['Football', 'Cricket', 'Tennis', 'Badminton'], isOpen: false},
+    {id: 9, name: 'Education', url: ['Results', 'Exaninations', 'Admissions', 'Syllabus'], isOpen: false},
+    {id: 10, name: 'Jobs', url: ['Government Jobs', 'Private Jobs', 'Walk-in-Interviews', 'Latest Jobs'], isOpen: false},
+  ]
